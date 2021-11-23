@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Facebook Login</title>
+    <style>
+        .col-md-8{
+            background: url(https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .col-md-4{
+            display: flex;
+            flex-direction: column;
+            /* text-align: center; */
+            justify-content: center;
+        }
+        .btn,input{
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 p-5">
+                <h3>Create new account on</h3>
+                <h3>My facebook</h3>
+                <p>Life is better with friends</p>
+                <form action="/" method="POST">
+                    <input type="text" placeholder="Name" class="form-control p-2 m-2" name="name">
+                    <input type="text" placeholder="Email" class="form-control p-2 m-2" name="email">
+                    <input type="password" placeholder="Password" class="form-control p-2 m-2" name="password">
+                    <input type="text" placeholder="Username" class="form-control p-2 m-2" name="username">
+                    <button class="btn btn-primary btn-block m-2" type="submit">Register as an user</button>
+                    <a href="/login" class="m-2">Already have an account?</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

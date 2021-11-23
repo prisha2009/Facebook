@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>profile</title>
+    <style>
+        .blue{
+            background-color: #4267b2;
+            padding: 0.5vh;
+        }
+        .cd{
+            margin-left: 400px;
+        }
+        .bl{
+            color: #4267b2;
+        }
+        .blue2{
+            margin-top: 375px;
+            background-color: #4267b2;
+            padding: 0.5vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="blue flex">
+        <h1 class="container text-light">Facebook</h1>
+    </div>
+    <div class="container text-center m-5">
+        <h1 class="">Profile</h1>
+        <div class="justify-content-center">
+            <div class="card cd" style="width: 300px">
+            <div class="card-img-overlay text-center">
+                <div class="card-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuCf31SSHaH1Z8oPndTOFf1FctAz3_1GSQCe_7AA4wsDvpxNp2xh3pck7M5HGHj97zG8g&usqp=CAU" height="100px" width="100px"><div>
+                <h1 class="card-title"><%= user.name %></h4>
+                <h3 class="card-text bl"><%= user.username%></h3>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatem provident neque, reiciendis quam pariatur consequuntur similique, accusantium corporis et quo ex veniam aspernatur illum tempore repellat eligendi voluptate sunt.</p>
+                <a href="/">Logout</a>
+            </div>
+        </div>
+        <span class="m-5"></span>
+        </div>
+</body>
+</html>
